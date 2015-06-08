@@ -1,0 +1,19 @@
+[global_config]
+  title_receive_bg_color = "#4ca246"
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#91aacb"
+[keybindings]
+[profiles]
+  [[default]]
+    background_darkness = 0.82
+    background_image = None
+    background_type = transparent
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

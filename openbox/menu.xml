@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+
+<menu id="apps-games-menu" label="Games">
+  <item label="X-Plane">
+    <action name="Execute">
+      <command>/home/thomas/X-Plane10/X-Plane-x86_64</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-accessories-menu" label="Accessories">
+  <item label="Son">
+    <action name="Execute">
+      <command>terminator -e alsamixer</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Calculator">
+    <action name="Execute">
+      <command>gnome-calculator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Ark File Archiver">
+    <action name="Execute">
+      <command>ark</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-editors-menu" label="Editeurs">
+  <item label="Sublime Text 3">
+    <action name="Execute">
+      <command>subl3</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Leafpad">
+    <action name="Execute">
+      <command>leafpad</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-term-menu" label="Terminal">
+  <item label="Terminator">
+    <action name="Execute">
+      <command>terminator</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Xfce Terminal">
+    <action name="Execute">
+      <command>xfce4-terminal</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-net-menu" label="Internet">
+  <item label="Chrome">
+    <action name="Execute">
+      <command>google-chrome-stable</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gmail">
+    <action name="Execute">
+      <command>xdg-open https://mail.google.com/mail/</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-office-menu" label="Office">
+  <item label="Google Drive">
+    <action name="Execute">
+      <command>xdg-open https://drive.google.com/drive/my-drive</command>
+    </action>
+  </item>
+  <item label="Sheet">
+    <action name="Execute">
+      <command>xdg-open https://docs.google.com/spreadsheets/u/0/</command>
+    </action>
+  </item>
+  <item label="Docs">
+    <action name="Execute">
+      <command>xdg-open https://docs.google.com/document/u/0/</command>
+    </action>
+  </item>
+  <item label="Slide">
+    <action name="Execute">
+      <command>xdg-open https://docs.google.com/presentation/u/0/</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-multimedia-menu" label="Multimedia">
+  <item label="Vlc">
+    <action name="Execute">
+      <command>vlc</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Google Photos">
+    <action name="Execute">
+      <command>xdg-open https://plus.google.com/u/0/photos</command>
+    </action>
+  </item>
+  <item label="Google Music">
+    <action name="Execute">
+      <command>xdg-open https://play.google.com/music/listen#/now</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-fileman-menu" label="Explorateur">
+  <item label="Explorateur">
+    <action name="Execute">
+      <command>pcmanfm</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="apps-graphics-menu" label="Graphics">
+  <item label="Gimp">
+    <action name="Execute">
+      <command>gimp</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Gwenview">
+    <action name="Execute">
+      <command>gwenview</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Dia Diagram Editor">
+    <action name="Execute">
+      <command>dia</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+  <item label="Inkscape">
+    <action name="Execute">
+      <command>inkscape</command>
+      <startupnotify>
+        <enabled>yes</enabled>
+      </startupnotify>
+    </action>
+  </item>
+</menu>
+
+<menu id="system-menu" label="System">
+  <item label="Openbox Configuration Manager">
+    <action name="Execute">
+      <command>obconf</command>
+      <startupnotify><enabled>yes</enabled></startupnotify>
+    </action>
+  </item>
+  <item label="Manage Cups Printers">
+    <action name="Execute">
+      <command>xdg-open http://localhost:631/</command>
+      <startupnotify>
+        <enabled>no</enabled>
+        <icon>cups</icon>
+      </startupnotify>
+    </action>
+  </item>
+  <separator />
+  <item label="Reconfigure Openbox">
+    <action name="Reconfigure" />
+  </item>
+</menu>
+
+<menu id="apps-tools-menu" label="Outils">
+  <item label="Agenda">
+    <action name="Execute">
+      <command>xdg-open https://www.google.com/calendar</command>
+    </action>
+  </item>
+  <item label="Note">
+    <action name="Execute">
+      <command>xdg-open https://keep.google.com/</command>
+    </action>
+  </item>
+  <item label="Maps">
+    <action name="Execute">
+      <command>xdg-open https://maps.google.fr/maps?hl=fr</command>
+    </action>
+  </item>
+</menu>
+
+
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Applications" />
+  <menu id="apps-games-menu"/>
+  <menu id="apps-accessories-menu"/>
+  <menu id="apps-tools-menu"/>
+  <menu id="apps-editors-menu"/>
+  <menu id="apps-graphics-menu"/>
+  <menu id="apps-net-menu"/>
+  <menu id="apps-office-menu"/>
+  <menu id="apps-multimedia-menu"/>
+  <menu id="apps-term-menu"/>
+  <menu id="apps-fileman-menu"/>
+  <separator label="System" />
+  <menu id="system-menu"/>
+  <separator />
+  <item label="Log Out">
+    <action name="Exit">
+      <prompt>yes</prompt>
+    </action>
+  </item>
+</menu>
+
+</openbox_menu>
